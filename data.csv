@@ -1,0 +1,4 @@
+date,content,cost1,cost2,cost3,profit
+2025-01-01,"This is a test content for January 1st.",10,20,30,400
+2025-01-02,"This is another test content for January 2nd.",100,200,300,1000
+2025-01-03,"Third row of test data for January 3rd.",101,200,300,2000

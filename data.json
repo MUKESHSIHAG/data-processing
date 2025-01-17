@@ -1,0 +1,26 @@
+[
+    {
+        "date": "2025-01-01",
+        "content": "This is a test content for January 1st.",
+        "cost1":150,
+        "cost2":160,
+        "cost3":170,
+        "profit": 1300
+    },
+    {
+        "date": "2025-01-02",
+        "content": "This is another test content for January 2nd.",
+        "cost1":270,
+        "cost2":90,
+        "cost3":110,
+        "profit": 1500
+    },
+    {
+        "date": "2025-01-03",
+        "content": "Third row of test data for January 3rd.",
+        "cost1":180,
+        "cost2":130,
+        "cost3":180,
+        "profit": 1800
+    }
+]
