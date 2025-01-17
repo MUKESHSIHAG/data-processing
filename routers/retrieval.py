@@ -10,11 +10,10 @@ router = APIRouter()
 @router.get("/data")
 async def get_data(
     db: Session = Depends(get_db),
-    start_date: Optional[str] = None,  # Query parameter for start date
-    end_date: Optional[str] = None,    # Query parameter for end date
-    user_id: Optional[int] = None      # Query parameter for user ID
+    start_date: Optional[str] = None,
+    end_date: Optional[str] = None,
+    user_id: Optional[int] = None
 ):
-    # Build the query with optional filters
     query = db.query(ProcessedData)
     
     if start_date:
@@ -25,8 +24,7 @@ async def get_data(
     
     if user_id:
         query = query.filter(ProcessedData.user_id == user_id)
-    
-    # Fetch the filtered data
+
     data = query.all()
     
     if not data:
