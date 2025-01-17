@@ -97,15 +97,4 @@ You can access the API documentation at:
 [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
  
-
-## Validation Logic
-
- 
-
-Basic validation is performed during data ingestion:
-
-- File type validation (CSV or JSON).
-
-- Data type validation (e.g., numeric values for costs and profit).
-
  
